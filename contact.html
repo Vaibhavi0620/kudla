@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Namma Kudla</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body id="contact-body">
+
+  <!-- Header / Navbar -->
+  <header >
+    <div style="height:40px;width:40px;"> <h5>
+        <img src="https://img.freepik.com/premium-vector/travel-app-logo-icon-brand-identity-sign-symbol_880781-733.jpg?semt=ais_hybrid&w=740&q=80" alt="Logo" class="logo">
+      <!-- <strong>Travel Kudla with Us</strong></h5></div> --></h5></div>
+    <div class="nav-buttons">
+      <button onclick="location.href='index.html'">Home</button>
+      <button onclick="location.href='destination.html'">Destination</button>
+      <button onclick="location.href='blog.html'">Blog</button>
+      <button class="active" onclick="location.href='contact.html'">Contact</button>
+      <button onclick="location.href='about.html'">About</button>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you! Fill out the form below or reach us through our social links.</p>
+
+    <form class="contact-form" id="contact-form">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" placeholder="Write your message..." rows="5" required></textarea>
+
+      <button type="button" onclick="saveMessage()">Send Message</button>
+    </form><p id="confirmation"></p>
+
+    <div class="contact-info">
+      <h3>Other Ways to Reach Us:</h3>
+      <p>📍 Address: Namma Kudla Tourism Office, Mangalore</p>
+      <p>📞 Phone: +91 98765 43210</p>
+      <p>📧 Email: support@nammakudla.com</p>
+    </div>
+  </section>
+
+</body>
+<footer>
+  <p>© 2025 Explore Mangalore | Designed by Vaibhavi Pai</p>
+</html>

@@ -1,0 +1,239 @@
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  gap: 20px;
+  border-radius: 15px;
+  padding: 10px;
+  background-size: cover;
+  background-position: center;
+  min-height: 80px;
+}
+
+.nav-buttons button {
+  background-color: rgb(63, 60, 60);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 12px;
+  width: 90px;
+  height: 35px;
+  transform-origin: center;
+}
+
+.nav-buttons button:hover {
+  background-color: black;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.nav-buttons button.active {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+ 
+#abody{
+    background-color:rgb(255, 255, 255)
+}
+.main div
+{
+ display: flex;
+ flex-direction:column;
+ transition: all 0.3s ease;
+
+}
+.maincont{
+    text-align: center;
+    margin-top: 20px;
+   width:auto;
+   height:350px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(68, 99, 99);
+    display: flex;
+  justify-content: center;
+  gap: 20px; /* space between boxes */
+  flex-wrap: wrap; 
+    border-radius: 15px;
+    box-shadow:0cap;
+     word-wrap: break-word;
+  overflow-wrap: break-word;
+  overflow: auto;
+    
+
+}
+@media (max-width: 768px) {
+
+  .maincont {
+    width:auto;   /* take most of screen width on small devices */
+    height: auto; /* adjust height automatically */
+  }
+}
+
+
+.maincont:hover{
+    background-color: #e1e3e6;
+  transform: scale(1.0);
+}
+.maincont img{
+    width: 200px;
+    height:150px;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #090d0e;
+  color: white;
+  margin-top: 30px;
+  height:auto;
+}
+/* Contact page layout */
+#contact-body {
+  font-family: Arial, sans-serif;
+  background-color: #1c1c1c;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.contact-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 30px auto;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.contact-form button {
+  background-color: #ffcc00;
+  border: none;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #f5b700;
+}
+
+.contact-info {
+  margin-top: 40px;
+  font-size: 1rem;
+}
+.blog-container {
+  padding: 40px;
+  text-align: center;
+  background-color:darkslategrey;
+}
+/* .blog-card div {
+ 
+} */
+
+.blog-card {
+  width: 320px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+   /* display: grid;
+  grid-template-columns: 100px 200px 100px; */
+  transition: transform 0.3s;
+}
+
+.blog-card:hover {
+  transform: scale(1.05);
+}
+
+.blog-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.blog-card h3 {
+  margin: 10px;
+  color: #333;
+}
+
+.blog-card p {
+  padding: 0 15px;
+  color: #666;
+  font-size: 14px;
+}
+
+.read-more {
+  background-color: darkslategrey;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.read-more:hover {
+  background-color: #4e8b8b;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+
+}
+.welcome-section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategrey;
+    flex-direction: column;
+}
+.welcome-box{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 40px 60px;
+    border-radius: 20px;
+    text-align: center;
+    backdrop-filter: blur(6px);
+    color: white;
+    max-width: 600px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.4);
+}
+.welcome-section button{
+    background-color: rgb(109, 142, 142);
+    color: rgb(135, 169, 77);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.welcome-section button:hover{
+    background-color: rgb(135, 169, 77);
+    color: rgb(17, 17, 17);
+    transform: scale(1.05);
+}
